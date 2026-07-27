@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+scikit-learn
+pandas
+numpy
+openai
+python-dotenv
+scapy
+google-generativeai==0.5.0
+websockets
