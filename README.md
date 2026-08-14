@@ -14,3 +14,15 @@
 ---
 
 ## 🏗️ Architecture & Tech Stack
+
+```text
+[ Live Network Traffic ] 
+       │ (Scapy Packet Capture)
+       ▼
+[ FastAPI Backend ] ──(WebSocket)──> [ React & Tailwind Dashboard ]
+       │
+       ├──> [ Random Forest ML Model ] (Anomaly Detection)
+       └──> [ Google Gemini API ] (Automated SOC Incident Reports)
+       │
+       ▼
+[ SQLite Database ] (Persistent Storage & Export)
